@@ -117,7 +117,7 @@ def search_and_print(algorithm, text, pattern):
         print(f"Рядок не знайдено, час виконання: {exec_time:.6f} секунд")
 
 print("Стаття 2 (існуючий підрядок):")
-print("Пошук Боєра Мура:")
+print("Пошук Боєра-Мура:")
 search_and_print(boyer_moore, text2, existing_substring)
 print("Пошук Кнута-Морріса-Пратта:")
 search_and_print(kmp_search, text2, existing_substring)
@@ -125,7 +125,7 @@ print("Пошук Рабіна-Карпа:")
 search_and_print(rabin_karp, text2, existing_substring)
 
 print("Стаття 2 (вигаданий підрядок):")
-print("Пошук Боєра Мура:")
+print("Пошук Боєра-Мура:")
 search_and_print(boyer_moore, text2, non_existing_substring)
 print("Пошук Кнута-Морріса-Пратта:")
 search_and_print(kmp_search, text2, non_existing_substring)

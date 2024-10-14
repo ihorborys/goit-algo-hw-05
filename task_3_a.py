@@ -112,7 +112,7 @@ def search_and_print(algorithm, text, pattern):
 
 # Результати для статті 1
 print("Стаття 1 (існуючий підрядок):")
-print("Пошук Боєра Мура:")
+print("Пошук Боєра-Мура:")
 search_and_print(boyer_moore, text1, existing_substring)
 print("Пошук Кнута-Морріса-Пратта:")
 search_and_print(kmp_search, text1, existing_substring)
@@ -120,7 +120,7 @@ print("Пошук Рабіна-Карпа:")
 search_and_print(rabin_karp, text1, existing_substring)
 
 print("Стаття 1 (вигаданий підрядок):")
-print("Пошук Боєра Мура:")
+print("Пошук Боєра-Мура:")
 search_and_print(boyer_moore, text1, non_existing_substring)
 print("Пошук Кнута-Морріса-Пратта:")
 search_and_print(kmp_search, text1, non_existing_substring)
